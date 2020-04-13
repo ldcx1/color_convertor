@@ -4,6 +4,7 @@ import math
 MAX_VALUE = 15 #for 12 bit/ 4 bit per color => 0 - 15 the values
 SHIFT_FACTOR = 4 #to lighten the image 
 
+#http://code.activestate.com/recipes/576919-python-rgb-and-hsv-conversion/
 def hsv2rgb(h, s, v):
     h = float(h)
     s = float(s)
